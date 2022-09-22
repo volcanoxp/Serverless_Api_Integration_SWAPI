@@ -9,7 +9,7 @@ const create = async (data) => {
 
 const getAll = async () => {
     const vehicles = await Vehicle.scan().exec();
-
+    
     return vehicles;
 }
 
